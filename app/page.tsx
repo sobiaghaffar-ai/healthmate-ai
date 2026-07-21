@@ -95,7 +95,7 @@ const handleReset = () => {
           diet,
           mood,
         }}
-        setFormData={(value) => {
+        setFormData={(value: any) => {
           const data =
             typeof value === "function"
               ? value({
