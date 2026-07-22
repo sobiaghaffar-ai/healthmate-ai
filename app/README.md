@@ -8,7 +8,6 @@ It solves the problem of people struggling to maintain healthy routines like pro
 
 The app is designed for students and individuals who want simple AI-based guidance for improving their daily lifestyle.
 
----
 
 ## 🌟 Features
 
@@ -20,7 +19,6 @@ The app is designed for students and individuals who want simple AI-based guidan
 - 📋 Copy AI report feature
 - 🔄 Reset form feature
 
----
 
 ## 🤖 AI Feature
 
@@ -47,7 +45,7 @@ The AI is instructed to act as a wellness assistant. It analyzes user data such 
 
 and creates a helpful personalized wellness report.
 
----
+
 
 ## 🛠️ Technologies Used
 
@@ -58,7 +56,6 @@ and creates a helpful personalized wellness report.
 - OpenRouter AI API
 - OpenAI compatible SDK
 
----
 
 ## 📸 Screenshots
 
@@ -73,7 +70,14 @@ and creates a helpful personalized wellness report.
 
 ## 🚀 How To Run The Project
 
-### Install dependencies:
+#### Install dependencies:
 
 ```bash
 npm install
+```
+
+## 🌐 Live Demo
+
+https://healthmate-ai-smoky.vercel.app
+
+
