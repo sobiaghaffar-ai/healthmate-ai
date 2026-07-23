@@ -3,6 +3,13 @@
 import { useState } from "react";
 import HealthForm from "./components/HealthForm";
 import HealthReport from "./components/HealthReport";
+import {
+  FaHeartbeat,
+  FaAppleAlt,
+  FaTint,
+  FaLeaf,
+  FaRunning,
+} from "react-icons/fa";
 export default function Home() {
   const [name, setName] = useState("");
   const [age, setAge] = useState("");
@@ -73,8 +80,27 @@ const handleReset = () => {
 };
 
   return (
-  <main className="min-h-screen bg-gradient-to-br from-blue-100 to-cyan-100 flex items-center justify-center p-6">
-    <div className="bg-white shadow-2xl rounded-2xl p-8 w-full max-w-2xl">
+  <main className="relative min-h-screen overflow-hidden bg-gradient-to-br from-sky-100 via-blue-50 to-cyan-100 flex items-center justify-center p-6">
+    <div className="absolute left-10 top-24 text-blue-300 text-5xl animate-bounce">
+  <FaTint />
+</div>
+
+<div className="absolute right-10 top-28 text-red-300 text-5xl animate-pulse">
+  <FaHeartbeat />
+</div>
+
+<div className="absolute left-14 bottom-28 text-green-400 text-5xl animate-bounce">
+  <FaLeaf />
+</div>
+
+<div className="absolute right-14 bottom-28 text-orange-400 text-5xl animate-pulse">
+  <FaAppleAlt />
+</div>
+
+<div className="absolute right-24 top-1/2 text-cyan-400 text-5xl animate-bounce">
+  <FaRunning />
+</div>
+    <div className="bg-white/80 backdrop-blur-md shadow-2xl rounded-3xl p-8 w-full max-w-2xl border border-white">
       
       <h1 className="text-4xl font-bold text-center text-blue-700">
         💙 HealthMate AI
