@@ -17,8 +17,9 @@ Many students and busy individuals struggle to maintain healthy daily habits bec
 
 **Live Application**
 
-HealthMate AI Live Demo: https://healthmate-ai-smoky.vercel.app
+🔗 HealthMate AI Live Demo
 
+https://healthmate-ai-smoky.vercel.app
 ---
 
 ## c. Features
@@ -27,7 +28,7 @@ HealthMate AI Live Demo: https://healthmate-ai-smoky.vercel.app
 2. Collects personal health information
 3. Tracks daily water intake
 4. Records sleep duration
-5. Records daily exercise
+5. Records daily exercise duration
 6. Tracks diet quality
 7. Tracks daily mood
 8. Generates an AI-powered wellness report
@@ -87,7 +88,7 @@ Do not diagnose diseases.
 - OpenAI JavaScript SDK
 
 ### AI Model
-- GPT-4.1 Mini (`openai/gpt-4.1-mini`)
+- GPT-4.1 Mini (via OpenRouter)
 
 ### Deployment
 - Vercel
