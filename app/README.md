@@ -101,16 +101,15 @@ Do not diagnose diseases.
 
 ### 1. Home Page
 
-![Home Page](./app/screenshots/home.png)
+![Home Page](screenshots/home.png)
 
 ### 2. Generating AI Report
 
-![Generating AI Report](./app/screenshots/generating.png)
+![Generating AI Report](screenshots/generating.png)
 
 ### 3. Health Report
 
-![Health Report](./app/screenshots/report.png)
-
+![Health Report](screenshots/report.png)
 ---
 
 ## g. How to Run the Project
