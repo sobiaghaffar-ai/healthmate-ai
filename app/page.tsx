@@ -9,6 +9,7 @@ import {
   FaTint,
   FaLeaf,
   FaRunning,
+  FaStethoscope,
 } from "react-icons/fa";
 export default function Home() {
   const [name, setName] = useState("");
@@ -85,7 +86,7 @@ const handleReset = () => {
   <FaTint />
 </div>
 
-<div className="absolute right-10 top-28 text-red-300 text-5xl animate-pulse">
+<div className="absolute right-10 top-28 text-red-300 text-5xl animate-bounce">
   <FaHeartbeat />
 </div>
 
@@ -93,7 +94,7 @@ const handleReset = () => {
   <FaLeaf />
 </div>
 
-<div className="absolute right-14 bottom-28 text-orange-400 text-5xl animate-pulse">
+<div className="absolute right-14 bottom-28 text-orange-400 text-5xl animate-bounce">
   <FaAppleAlt />
 </div>
 
