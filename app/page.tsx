@@ -9,7 +9,6 @@ import {
   FaTint,
   FaLeaf,
   FaRunning,
-  FaStethoscope,
 } from "react-icons/fa";
 export default function Home() {
   const [name, setName] = useState("");
